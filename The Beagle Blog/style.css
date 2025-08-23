@@ -1,0 +1,23 @@
+
+.beagle-blog{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.image-part{
+width: 100%;
+
+}
+
+.image-part img{
+    width: 300px;
+    height: auto;
+}
+
+.trivia-part{   
+width: 100%;
+}
+
+.trivia-part li{
+    line-height: 20px;
+}
