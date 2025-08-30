@@ -1,0 +1,189 @@
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+
+
+#navbar{
+    position:sticky;
+    /* top:0%;
+    left: 0%; */
+    margin:auto;
+}
+
+.container{
+    width: 100%;
+     height:86px;
+    /* width: 1728px; */
+    background-color: #FCAF02;
+    display: flex;
+    /* position: fixed; */
+    /* padding-top: 80px; */
+}
+
+
+.startup{
+    padding-top: 80px;
+    width: 127px;
+    height: 39px;
+    top: 24px;
+    left: 58px;
+font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+color: #000000;
+padding: 16px;
+/* margin:16px; */
+
+}
+
+.home{
+width: 87px;
+height: 34px;
+top: 26px;
+left: 1048px;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+margin-left: 30rem;
+/* margin:16px;     */
+padding: 16px;
+}
+
+.about{
+width: 130px;
+height: 34px;
+top: 26px;
+left: 1185px;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+padding: 16px;
+/* margin:16px; */
+}
+
+.contact-us{
+width: 155px;
+height: 34px;
+top: 26px;
+left: 1365px;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+padding: 16px;
+}
+
+.login{
+width: 80px;
+height: 34px;
+top: 26px;
+left: 1570px;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+padding: 16px;
+}
+
+.intro{
+    display: flex;
+}
+
+.heading{
+width: 736px;
+height: 78px;
+top: 174px;
+left: 58px;
+/* angle: 0 deg; */
+opacity: 1;
+font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+
+
+}
+/* .heading-1{
+width: 736px;
+height: 78px;
+top: 174px;
+left: 58px;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+} */
+
+p{
+    width: 60%;
+/* width: 917px;
+height: 238px; */
+top: 285px;
+left: 63px;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.jeff img{
+ /* width: 697px;
+height: 482px;
+top: 173px;
+left: 981px;
+opacity: 1; */
+width: 450px;
+height: 300px;
+width: 697;
+height: 482;
+top: 173px;
+left: 981px;
+opacity: 1;
+transform: translate(50rem, -18rem);
+/* transform: translateX(90px); */
+
+}
+
+.login-btn{
+     width: 20%;
+    border-radius: 25px;
+    background-color: #FCAF02;
+    padding: 16px;
+}

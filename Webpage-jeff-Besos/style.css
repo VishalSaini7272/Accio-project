@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: Montserrat;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #FCAF02;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #FCAF02;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e1a502;
+}
+
+.intro-img img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact {
+  padding: 60px 40px;
+}
+
+.contact h1 {
+  font-size: 40px;
+  color: #FCAF02;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #FCAF02;
+  border-radius: 50px;
+  background: transparent;
+  font-size: 18px;
+  color: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ffcc33;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.submit {
+  align-self: center;
+}
+
+.table-sec {
+  padding: 60px 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #FCAF02;  
+}
+
+th, td {
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #FCAF02;
+}
+
+
+thead th {
+  border-bottom: 2px solid #FCAF02;
+}
+
+tfoot td {
+  background: #FCAF02;
+  color: black;
+  font-weight: 700;
+}
