@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background: black;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #B1A592;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.links a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #b1a592;
+  border: 1px solid #b1a592;
+  padding: 8px 16px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.company {
+  background: #323025;
+  color: black;
+}
+
+.links a:hover {
+  background: #b1a592;
+  color: black;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+   grid-template-columns: 1fr 2fr;  /* left 1 part, right 2 parts */
+  grid-template-rows: 1fr; 
+  gap: 20px;
+}
+
+/* Card */
+.card-one{
+  background: #dfd6c5;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-two{
+  background:#8E886D;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+  .card-three{
+  background: #916E58;
+  border-radius: 20px;
+  padding: 20px;
+  }
+
+  .card-four{
+ background: #B1A48E;
+  border-radius: 20px;
+  padding: 20px;
+  }
+
+.card-one{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.card-two{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.card-three{
+    
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
+.card-four{
+     grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+/* Images */
+.img-one, .img-two, .img-three, .img-four {
+  width: 100%;
+  /* height: 80%; */
+  border-radius: 15px;
+  margin-top: 10px;
+  transition: transform 0.5s ease;
+}
+
+.img-one:hover {
+  transform: scale(0.9);
+}
+
+.img-two:hover {
+  transform: scale(0.9);
+}
+
+.img-three:hover {
+  transform: scale(0.9);
+}
+
+.img-four:hover {
+  transform: scale(0.9);
+}
+
+.card:hover .img-one:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+
+.card:hover .img-two:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+
+.card:hover .img-three:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+
+.card:hover .img-four:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+
+ /* .img-one{
+    height: 730px;
+    width: 631px;
+}
+
+.img-two{
+    height: 235px;
+    width: 523px;
+}
+.img-three{
+height: 168px;
+width: 385px;
+}
+
+
+.card-one{
+    height: 981px;
+    width:667px ;
+}
+.card-two{
+    height: 356px;
+    width: 967px;
+}
+
+.card-three{
+height:597px ;
+width: 405px;
+}
+
+.card-four{
+width: 525px;
+height: 597px;
+}  */
+
+
+
+/* Circle Image */
+.people {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+  margin: 10px auto;
+  display: block;
+}
+
+/* List */
+ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  list-style: none;
+}
+
+/* Bottom */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Arrow blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.card-one:hover .arrow {
+  animation: blink 0.8s infinite;
+}
+
+.card-two:hover .arrow {
+  animation: blink 0.8s infinite;
+}
+
+.card-three:hover .arrow {
+  animation: blink 0.8s infinite;
+}
+
+.card-four:hover .arrow {
+  animation: blink 0.8s infinite;
+}
+
+.arrow {
+  animation: none; 
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
